@@ -1,0 +1,41 @@
+@media screen and (max-width: 1000px){
+    /* body{ */
+        /* background-color: red; */
+        /* } */
+    nav{
+     display: flex;
+     flex-direction: column;   
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2vh 0vw;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+    }
+    .card-item img{
+        height: 14vh;
+        width: 12vw;
+    }
+    .text_center2{
+        margin: 2vh 1vw;
+        background-color: rgb(69, 66, 218);
+        color: white;
+        height: 4vh;
+        border-radius: 10px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        height: 1vh;
+        align-items: center;
+      
+    }
+}

@@ -1,0 +1,44 @@
+:root {
+  --main-bg-color: rgb(28, 74, 209);
+}
+header {
+  background-color: var(--main-bg-color);
+}
+nav {
+  display: flex;
+}
+nav img {
+  margin: 2vh 2w;
+  padding: 2vh 2vw;
+}
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  margin: 2vh 8vh;
+  text-decoration: none;
+}
+ul li a {
+  display: inline;
+  color: white;
+}
+ul li a:hover {
+  color: green;
+  font-weight: 200;
+}
+.container img {
+  height: 56vh;
+  width: 80vw;
+  margin: 3vh 10vw;
+}
+p {
+  text-align: center;
+  display: flex;
+  margin: 2vh 13vw;
+  justify-content: center;
+}
+footer {
+  height: 5vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  text-align: center;
+}

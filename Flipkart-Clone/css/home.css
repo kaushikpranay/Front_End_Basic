@@ -1,0 +1,81 @@
+:root {
+  --main-bg-color: rgb(28, 74, 209);
+}
+header {
+  background-color: var(--main-bg-color);
+}
+nav {
+  display: flex;
+}
+nav img {
+  margin: 2vh 2w;
+  padding: 2vh 2vw;
+}
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  margin: 2vh 8vh;
+}
+ul li a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: green;
+  font-weight: 200;
+}
+.slider {
+  margin: auto;
+  width: 80vw;
+  padding: 2vh 0vw;
+  overflow: hidden;
+}
+.slider img {
+  height: 40vh;
+  width: 80vw;
+  overflow: hidden;
+}
+
+.card-item {
+  width: 10vw;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2vh 6vw;
+}
+.card-item img {
+  height: 28vh;
+  width: 8vw;
+  margin: 3vh 0vw;
+}
+.h_1 {
+  margin: 5vh 0;
+}
+.card {
+  /* background-color: aquamarine; */
+  max-width: 92vw;
+  margin: auto;
+}
+.cards {
+  display: flex;
+  overflow: scroll;
+}
+.text_center {
+  text-align: center;
+}
+.text_center2 {
+  margin: 3vh 2vw;
+  background-color: rgb(69, 66, 218);
+  color: white;
+  height: 6vh;
+  border-radius: 5px;
+}
+footer{
+  text-align: center;
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 12vh;
+  margin: 6vh auto;
+  padding: 2vh ;
+}

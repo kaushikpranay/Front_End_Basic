@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --main-bg-color: rgb(38, 41, 222);
+  }
+  BODY{
+    background-image: url("../img/flipkart-image.avif");
+    background-size: cover;
+  }
+  header {
+    background-color: var(--main-bg-color);
+    color: white;
+    border: solid 2px red;
+  }
+  nav {
+    display: flex;
+  }
+  .logo img {
+    height: 6vh;
+    /* margin: 3vh 1vw; */
+    padding: 0vh 4vw;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 11vh;
+    align-items: center;
+  }
+  nav ul li {
+    list-style: none;
+    padding: 0vh 3vw;
+  }
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    font-weight: bold;
+    color: rgb(32, 219, 113);
+    text-decoration: undeline;
+  }
+  main{
+    height: calc(100vh - 11vh - 12vh);
+  }
+  main .container{
+    background-color: #0000ff85;
+    height: 36vh;
+    margin: 29vh 20vw;
+    text-align: center;
+    align-items: center;
+    font-size: 4vh;
+    padding: 10vh 3vw;
+    color: white;
+  }
+
+ .btn {
+  padding: 0vh 2vw 0vh 2vw;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--main-bg-color);
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+  /* font-weight: 123; */
+  font-size: large;
+}
+.sign{
+    padding: 6vh 0vw;
+}
+  footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    text-align: center;
+    padding: 4vh 0vh;
+  }
+  
